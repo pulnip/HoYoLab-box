@@ -20,5 +20,5 @@ jobs:
           HOYO_TOKEN: ${{ secrets.HOYO_TOKEN }}
           HOYO_TMID: ${{ secrets.HOYO_TMID }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GIST_ID: 9a79919834da31aac651c6a00bffa874
+          GIST_ID: ${{ secrets.GIST_ID }}
         run: python main.py
