@@ -18,11 +18,10 @@
 
 ### Project Setup
 1. Fork this repo
-2. Edit the environment variable in `.github/workflows/main.yml`
-- **GIST_ID** : The ID portion from your gist url
-3. Go to the repo **Settings > Secrets**
-4. Add the following environment variables
+2. Go to the repo **Settings > Secrets**
+3. Add the following environment variables
 - **GH_TOKEN** : The GitHub token generated above
+- - **GIST_ID** : The ID portion from your gist url
 - **HOYO_UID** : Your HoYoverse/HoYoLab UID
 - **HOYO_TOKEN** : Your personal HoYoLab API access token (copied `ltoken_v2`)
 - **HOYO_TMID** : Another key value to access API (copied `ltmid_v2`)
